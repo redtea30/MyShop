@@ -1,0 +1,30 @@
+server:
+  port: 8083
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        service: shop-system
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/myshop
+    username: root
+    password: qwertyuiop
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.store.system.model
+  configuration:
+    map-underscore-to-camel-case: true
+
+
+
+logging:
+  level:
+    com.store.system: debug
+
+
+
+

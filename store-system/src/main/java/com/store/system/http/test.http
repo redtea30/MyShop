@@ -1,0 +1,6 @@
+GET http://localhost:8083/mysystem/index
+Accept: application/json
+
+
+GET http://localhost:8083/system/roles/
+Accept: application/json

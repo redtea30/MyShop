@@ -1,0 +1,25 @@
+server:
+  port: 8084
+
+
+# 数据源
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/myshop
+    username: root
+    password: qwertyuiop
+
+## MyBatis 配置
+#mybatis:
+#  # mapper 映射文件的路径
+#  mapperLocations: classpath:mapper/*.xml
+#  # 实体类所在的包，类型别名
+#  type-aliases-package: com.mybatis.day1103test.model
+#  configuration:
+#    # 开启驼峰命名
+#    map-underscore-to-camel-case: true
+
+springcloud-nacos-provider: # nacos中的服务id
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule #设置负载均衡策略
