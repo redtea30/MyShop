@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.store.system.mapper.MenuMapper">
+
+    <resultMap id="BaseResultMap" type="com.store.system.model.Menu">
+            <id property="menuId" column="menu_id" jdbcType="INTEGER"/>
+            <result property="menuName" column="menu_name" jdbcType="VARCHAR"/>
+            <result property="menuUrl" column="menu_url" jdbcType="VARCHAR"/>
+            <result property="permissionIdentifier" column="permission_identifier" jdbcType="VARCHAR"/>
+            <result property="menuType" column="menu_type" jdbcType="TINYINT"/>
+            <result property="parentId" column="parent_id" jdbcType="INTEGER"/>
+            <result property="displayOrder" column="display_order" jdbcType="INTEGER"/>
+            <result property="icon" column="icon" jdbcType="VARCHAR"/>
+            <result property="menuStatus" column="menu_status" jdbcType="TINYINT"/>
+            <result property="createdAt" column="created_at" jdbcType="TIMESTAMP"/>
+            <result property="updateAt" column="update_at" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        menu_id,menu_name,menu_url,
+        permission_identifier,menu_type,parent_id,
+        display_order,icon,menu_status,
+        created_at,update_at
+    </sql>
+
+    <select id="selectAllByMenuName" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from menu
+        where
+        menu_name = #{menuName,jdbcType=VARCHAR}
+    </select>
+    <insert id="insertAll">
+        insert into menu
+        (menu_id, menu_name, menu_url,
+         permission_identifier, menu_type, parent_id,
+         display_order, icon, menu_status,
+         created_at, update-at)
+        values (#{menuId,jdbcType=NUMERIC}, #{menuName,jdbcType=VARCHAR}, #{menuUrl,jdbcType=VARCHAR},
+                #{permissionIdentifier,jdbcType=VARCHAR}, #{menuType,jdbcType=NUMERIC}, #{parentId,jdbcType=NUMERIC},
+                #{displayOrder,jdbcType=NUMERIC}, #{icon,jdbcType=VARCHAR}, #{menuStatus,jdbcType=NUMERIC},
+                #{createdAt,jdbcType=TIMESTAMP}, #{updateAt,jdbcType=TIMESTAMP})
+
+    </insert>
+</mapper>
