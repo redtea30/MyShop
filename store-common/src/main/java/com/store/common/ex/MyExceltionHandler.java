@@ -1,6 +1,6 @@
 package com.store.common.ex;
 
-import com.kfm.shop.common.util.Result;
+import com.store.common.util.Result;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

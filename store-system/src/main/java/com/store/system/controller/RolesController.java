@@ -2,11 +2,11 @@ package com.store.system.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.github.pagehelper.PageHelper;
+import com.store.common.util.Result;
 import com.store.system.model.Roles;
 import com.store.system.service.RolesService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
-import com.store.common.util.util.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.ObjectUtils;
 import org.springframework.web.bind.annotation.*;
