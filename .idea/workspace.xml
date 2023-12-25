@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe398823-0b07-43ce-96e3-d6d6c91cb8d8" name="Changes" comment="改了下项目结构">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/test001" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Enviroment\Maven\repository" />
+        <option name="mavenHome" value="D:\Enviroment\Maven\apache-maven-3.8.8" />
+        <option name="userSettingsFile" value="D:\Enviroment\Maven\apache-maven-3.8.8\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2ZbgrEDGNFh0aQShUV3US06JD6m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortKey" value="BY_TIME_ASCENDING" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "HTTP Request.generated-requests | #10.executor": "Run",
+    "HTTP Request.generated-requests | #11.executor": "Run",
+    "HTTP Request.generated-requests | #13.executor": "Run",
+    "HTTP Request.generated-requests | #14.executor": "Run",
+    "HTTP Request.generated-requests | #15.executor": "Run",
+    "HTTP Request.generated-requests | #16.executor": "Run",
+    "HTTP Request.generated-requests | #18.executor": "Run",
+    "HTTP Request.generated-requests | #21.executor": "Run",
+    "HTTP Request.generated-requests | #8.executor": "Run",
+    "HTTP Request.test | #1.executor": "Run",
+    "JUnit.UsersServiceImplTest.save.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.test001 [org.apache.maven.plugins:maven-clean-plugin:2.5:clean].executor": "Run",
+    "Maven.test001 [org.apache.maven.plugins:maven-install-plugin:2.4:help].executor": "Run",
+    "Maven.test001 [org.apache.maven.plugins:maven-install-plugin:2.4:install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.StoreAdminApplication.executor": "Run",
+    "Spring Boot.StoreOrderApplication.executor": "Run",
+    "Spring Boot.StoreProductApplication.executor": "Run",
+    "Spring Boot.SystemSpringApplication.executor": "Debug",
+    "Spring Boot.Test001Application.executor": "Run",
+    "Spring Boot.UserApplication.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jksps/IdeaProjects/spring-security2023",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.11652893",
+    "project.structure.side.proportion": "0.19649805",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jksps\Documents\IdeaProjects\MyShop\store-common\src\main\resources" />
+      <recent name="C:\Users\jksps\Documents\IdeaProjects\MyShop\store-common\src\main\java\com\store\common" />
+      <recent name="C:\Users\jksps\Documents\IdeaProjects\MyShop\store-system\src\main\resources" />
+      <recent name="C:\Users\jksps\Documents\IdeaProjects\MyShop\store-product\src\main\resources" />
+      <recent name="C:\Users\jksps\Documents\IdeaProjects\MyShop\store-order\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jksps\Documents\IdeaProjects\MyShop\store-system\src\main\java\com\store\system" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.store.system.service.impl" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SystemSpringApplication">
+    <configuration name="generated-requests | #18" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="18" requestIdentifier="#18" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #21" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="21" requestIdentifier="#21" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="UsersServiceImplTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="store-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.store.system.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.store.system.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.store.system.service.impl.UsersServiceImplTest" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="store-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.store.system.SystemSpringApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.store.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="test001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.test001.Test001Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.test001.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SystemSpringApplication" />
+        <item itemvalue="HTTP Request.generated-requests | #21" />
+        <item itemvalue="Spring Boot.Test001Application" />
+        <item itemvalue="JUnit.UsersServiceImplTest.save" />
+        <item itemvalue="HTTP Request.generated-requests | #18" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe398823-0b07-43ce-96e3-d6d6c91cb8d8" name="Changes" comment="" />
+      <created>1702696390831</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702696390831</updated>
+      <workItem from="1702696392082" duration="344000" />
+      <workItem from="1702696746382" duration="592000" />
+      <workItem from="1702697346630" duration="5861000" />
+      <workItem from="1702790282671" duration="3145000" />
+      <workItem from="1702869250685" duration="43000" />
+      <workItem from="1702870316571" duration="2010000" />
+      <workItem from="1702879044483" duration="345000" />
+      <workItem from="1702879399789" duration="15884000" />
+      <workItem from="1702903233074" duration="3237000" />
+      <workItem from="1702908561944" duration="2390000" />
+      <workItem from="1702950995332" duration="2437000" />
+      <workItem from="1703058275936" duration="2686000" />
+      <workItem from="1703061862849" duration="590000" />
+      <workItem from="1703062488778" duration="12809000" />
+      <workItem from="1703084412234" duration="482000" />
+      <workItem from="1703084906305" duration="2548000" />
+      <workItem from="1703138687400" duration="594000" />
+      <workItem from="1703145566642" duration="13884000" />
+      <workItem from="1703216580617" duration="19212000" />
+      <workItem from="1703294563797" duration="1561000" />
+      <workItem from="1703310771730" duration="1004000" />
+      <workItem from="1703403424422" duration="7519000" />
+      <workItem from="1703476569726" duration="120000" />
+      <workItem from="1703476708474" duration="568000" />
+    </task>
+    <task id="LOCAL-00001" summary="基本逻辑搞清楚了，完成了RoleService功能，正在做对应的增删改查。目前使用了mybatis-plus写，相对于mybatis差别不大">
+      <option name="closed" value="true" />
+      <created>1703086124741</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703086124741</updated>
+    </task>
+    <task id="LOCAL-00002" summary="基本完成增删改查，弄明白QueryWrapper是干嘛的，MybatisPlus咋用。MenuController完成输出树状图">
+      <option name="closed" value="true" />
+      <created>1703169084226</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703169084226</updated>
+    </task>
+    <task id="LOCAL-00003" summary="使用baseModel进行精简，去除每个三个大表的created_at,update_at">
+      <option name="closed" value="true" />
+      <created>1703171370721</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703171370721</updated>
+    </task>
+    <task id="LOCAL-00004" summary="后端登录接口正在完善，目前的问题是不能正常查询">
+      <option name="closed" value="true" />
+      <created>1703475968617</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703475968617</updated>
+    </task>
+    <task id="LOCAL-00005" summary="改了下项目结构">
+      <option name="closed" value="true" />
+      <created>1703476311845</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703476311845</updated>
+    </task>
+    <task id="LOCAL-00006" summary="改了下项目结构">
+      <option name="closed" value="true" />
+      <created>1703476588048</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703476588048</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="基本逻辑搞清楚了，完成了RoleService功能，正在做对应的增删改查。目前使用了mybatis-plus写，相对于mybatis差别不大" />
+    <MESSAGE value="基本完成增删改查，弄明白QueryWrapper是干嘛的，MybatisPlus咋用。MenuController完成输出树状图" />
+    <MESSAGE value="使用baseModel进行精简，去除每个三个大表的created_at,update_at" />
+    <MESSAGE value="后端登录接口正在完善，目前的问题是不能正常查询" />
+    <MESSAGE value="改了下项目结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="改了下项目结构" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/store-system/src/main/java/com/store/system/controller/UserController.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/store-system/src/main/java/com/store/system/service/impl/UsersServiceImpl.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
