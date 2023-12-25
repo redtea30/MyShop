@@ -15,6 +15,7 @@
         <module>store-system</module>
         <module>store-product</module>
         <module>shop-user</module>
+        <module>test001</module>
     </modules>
 
     <properties>
@@ -37,11 +38,11 @@
             <version>5.8.23</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
-<!--        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <version>3.2.0</version>
-        </dependency>-->
+        <!--        <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-devtools</artifactId>
+                    <version>3.2.0</version>
+                </dependency>-->
 
     </dependencies>
     <dependencyManagement>
