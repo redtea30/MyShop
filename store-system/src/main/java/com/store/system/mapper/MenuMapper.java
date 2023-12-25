@@ -15,6 +15,8 @@ public interface MenuMapper extends BaseMapper<Menu> {
     List<Menu> selectAllByMenuName(@Param("menuName") String menuName);
 
     int insertAll(Menu menu);
+
+    List<Menu> selectMenuWithRoleIds(List<Object> collect);
 }
 
 

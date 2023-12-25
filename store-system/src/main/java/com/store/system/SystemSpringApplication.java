@@ -12,7 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 20-12-2023  19:22
  * Describe：
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.store.system", "com.store.common"})
 @MapperScan("com.store.system.mapper")
 public class SystemSpringApplication {
     public static void main(String[] args) {

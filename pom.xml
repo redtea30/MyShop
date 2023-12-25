@@ -27,6 +27,7 @@
         <spring-boot-starter-test-version>2.7.17</spring-boot-starter-test-version>
         <spring-boot-starter-web-version>2.7.17</spring-boot-starter-web-version>
         <mybatis-plus.version>3.5.3.1</mybatis-plus.version>
+        <spring-boot-starter-data-redis>3.2.0</spring-boot-starter-data-redis>
     </properties>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/cn.hutool/hutool-core -->
@@ -36,11 +37,11 @@
             <version>5.8.23</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
-        <dependency>
+<!--        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <version>3.2.0</version>
-        </dependency>
+        </dependency>-->
 
     </dependencies>
     <dependencyManagement>
@@ -107,6 +108,13 @@
                 <artifactId>pagehelper-spring-boot-starter</artifactId>
                 <version>2.1.0</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-redis -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-redis</artifactId>
+                <version>${spring-boot-starter-data-redis}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>

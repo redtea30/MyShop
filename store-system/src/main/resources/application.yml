@@ -2,16 +2,27 @@ server:
   port: 8083
 
 spring:
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 127.0.0.1:8848
-        service: shop-system
+  #  cloud:
+  #    nacos:
+  #      discovery:
+  #        server-addr: 127.0.0.1:8848
+  #        service: shop-system
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/myshop
     username: root
     password: qwertyuiop
+
+  redis:
+    host: localhost           # Redis server host
+    port: 6379                # Redis server port
+    password:
+    database: 0               # Database index used by the connection factory
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+
 
 mybatis-plus:
   mapper-locations: classpath:mapper/*.xml

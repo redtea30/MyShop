@@ -2,6 +2,7 @@ package com.store.system.service;
 
 import com.store.system.model.Users;
 import com.baomidou.mybatisplus.extension.service.IService;
+import org.springframework.stereotype.Service;
 
 /**
 * @author jksps
@@ -9,5 +10,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 * @createDate 2023-12-20 17:30:35
 */
 public interface UsersService extends IService<Users> {
+
+    public String login(Users users);
 
 }

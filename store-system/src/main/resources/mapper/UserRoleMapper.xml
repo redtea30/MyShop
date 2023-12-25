@@ -13,4 +13,12 @@
         user_id
         ,role_id
     </sql>
+    <select id="selectRoleIdsByUserId" resultType="com.store.system.model.Roles">
+        select
+            rol.role_id,rol.role_name,rol.role_identifier,rol.created_at,rol.update_at
+        from
+            roles rol INNER JOIN user_role urol on rol.role_id = urol.role_id
+        where
+            urol.user_id = #{userId}
+    </select>
 </mapper>

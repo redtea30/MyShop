@@ -8,6 +8,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 * @description 针对表【user_role】的数据库操作Service
 * @createDate 2023-12-20 17:30:35
 */
+
 public interface UserRoleService extends IService<UserRole> {
 
 }

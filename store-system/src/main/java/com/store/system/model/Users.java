@@ -65,16 +65,9 @@ public class Users extends BaseModel implements Serializable {
      */
     private Integer isDeleted;
 
-/*    *//**
-     * 记录创建时间
-     *//*
-    private Date createdAt;
-
-    *//**
-     * 记录更新时间，使用 ON UPDATE CURRENT_TIMESTAMP 自动更新
-     *//*
-    private Date updateAt;*/
-
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;
+
+    @TableField(exist = false)
+    private Integer[] roleIds;
 }

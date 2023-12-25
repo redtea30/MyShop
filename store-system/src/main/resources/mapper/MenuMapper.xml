@@ -5,21 +5,22 @@
 <mapper namespace="com.store.system.mapper.MenuMapper">
 
     <resultMap id="BaseResultMap" type="com.store.system.model.Menu">
-            <id property="menuId" column="menu_id" jdbcType="INTEGER"/>
-            <result property="menuName" column="menu_name" jdbcType="VARCHAR"/>
-            <result property="menuUrl" column="menu_url" jdbcType="VARCHAR"/>
-            <result property="permissionIdentifier" column="permission_identifier" jdbcType="VARCHAR"/>
-            <result property="menuType" column="menu_type" jdbcType="TINYINT"/>
-            <result property="parentId" column="parent_id" jdbcType="INTEGER"/>
-            <result property="displayOrder" column="display_order" jdbcType="INTEGER"/>
-            <result property="icon" column="icon" jdbcType="VARCHAR"/>
-            <result property="menuStatus" column="menu_status" jdbcType="TINYINT"/>
-            <result property="createdAt" column="created_at" jdbcType="TIMESTAMP"/>
-            <result property="updateAt" column="update_at" jdbcType="TIMESTAMP"/>
+        <id property="menuId" column="menu_id" jdbcType="INTEGER"/>
+        <result property="menuName" column="menu_name" jdbcType="VARCHAR"/>
+        <result property="menuUrl" column="menu_url" jdbcType="VARCHAR"/>
+        <result property="permissionIdentifier" column="permission_identifier" jdbcType="VARCHAR"/>
+        <result property="menuType" column="menu_type" jdbcType="TINYINT"/>
+        <result property="parentId" column="parent_id" jdbcType="INTEGER"/>
+        <result property="displayOrder" column="display_order" jdbcType="INTEGER"/>
+        <result property="icon" column="icon" jdbcType="VARCHAR"/>
+        <result property="menuStatus" column="menu_status" jdbcType="TINYINT"/>
+        <result property="createdAt" column="created_at" jdbcType="TIMESTAMP"/>
+        <result property="updateAt" column="update_at" jdbcType="TIMESTAMP"/>
     </resultMap>
 
     <sql id="Base_Column_List">
-        menu_id,menu_name,menu_url,
+        menu_id
+        ,menu_name,menu_url,
         permission_identifier,menu_type,parent_id,
         display_order,icon,menu_status,
         created_at,update_at
@@ -31,6 +32,18 @@
         from menu
         where
         menu_name = #{menuName,jdbcType=VARCHAR}
+    </select>
+    <select id="selectMenuWithRoleIds" resultType="com.store.system.model.Menu">
+        select
+        me.*
+        from
+        menu me INNER JOIN role_menu rm on me.menu_id = rm.menu_id
+        WHERE
+        rm.role_id IN
+        <foreach collection="collection" item="id" open="(" close=")" separator=",">
+            #{id}
+        </foreach>
+        ORDER BY parent_id, display_order
     </select>
     <insert id="insertAll">
         insert into menu

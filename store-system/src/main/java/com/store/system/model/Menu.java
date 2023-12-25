@@ -18,8 +18,6 @@ import lombok.NoArgsConstructor;
  */
 @TableName(value = "menu")
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class Menu extends BaseModel implements Serializable {
     /**
      * 编号
