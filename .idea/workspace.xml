@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe398823-0b07-43ce-96e3-d6d6c91cb8d8" name="Changes" comment="web项目回顾，一个简单的demo">
-      <change afterPath="$PROJECT_DIR$/Web/css/echart_page1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/html/echart_page1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/js/echart_page1.js" afterDir="false" />
+    <list default="true" id="fe398823-0b07-43ce-96e3-d6d6c91cb8d8" name="Changes" comment="四张echart静态图实现">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,6 +113,7 @@
     "project.structure.side.proportion": "0.19649805",
     "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "preferences.editor",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.2.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -261,7 +259,9 @@
       <workItem from="1703476708474" duration="912000" />
       <workItem from="1703477630702" duration="5313000" />
       <workItem from="1703502755531" duration="5777000" />
-      <workItem from="1703521872597" duration="1250000" />
+      <workItem from="1703521872597" duration="1307000" />
+      <workItem from="1704296800673" duration="1000" />
+      <workItem from="1704296806158" duration="943000" />
     </task>
     <task id="LOCAL-00001" summary="基本逻辑搞清楚了，完成了RoleService功能，正在做对应的增删改查。目前使用了mybatis-plus写，相对于mybatis差别不大">
       <option name="closed" value="true" />
@@ -319,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703505313544</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="四张echart静态图实现">
+      <option name="closed" value="true" />
+      <created>1703560581018</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703560581018</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +381,8 @@
     <MESSAGE value="后端登录接口正在完善，目前的问题是不能正常查询" />
     <MESSAGE value="改了下项目结构" />
     <MESSAGE value="web项目回顾，一个简单的demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="web项目回顾，一个简单的demo" />
+    <MESSAGE value="四张echart静态图实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="四张echart静态图实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
