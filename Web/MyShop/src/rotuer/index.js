@@ -2,7 +2,7 @@ import {createRouter, createWebHashHistory} from 'vue-router'
 
 // 在这里导入页面组件
 import Index from "@/components/index.vue"
-
+import NotFound from "@/components/NotFound.vue";
 // 这里都是导入的东西
 
 
@@ -11,7 +11,7 @@ const routes = [
     {path: "/", redirect: 'index'},
     {path: "/index", component: Index},
     // 通配符设置
-    // {path: "/:catchAll(.*)", component: NotFound},
+    {path: "/:catchAll(.*)", component: NotFound},
 
 ];
 
