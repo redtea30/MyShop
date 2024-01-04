@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe398823-0b07-43ce-96e3-d6d6c91cb8d8" name="Changes" comment="解决路由配置问题，以及创建主页等内容">
-      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/components/Header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/components/NotFound.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/components/ShopCart.vue" afterDir="false" />
+    <list default="true" id="fe398823-0b07-43ce-96e3-d6d6c91cb8d8" name="Changes" comment="完成购物车模块的样式，我是在独立完成，但是有点难">
+      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/components/index/Carousel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/components/index/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/components/index/LeftSider.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/components/index/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/components/index/Logo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/components/index/Navigation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/components/index/ShopCart.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/MyShop/src/components/HeaderSearch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Web/MyShop/src/components/HeaderSearch.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/MyShop/src/components/Header.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/MyShop/src/components/HeaderSearch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Web/MyShop/src/components/index/HeaderSearch.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/MyShop/src/components/ShopCart.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/MyShop/src/components/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Web/MyShop/src/components/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/MyShop/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/MyShop/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/MyShop/src/rotuer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/MyShop/src/rotuer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/MyShop/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Web/MyShop/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +150,7 @@
       <recent name="C:\Users\jksps\Documents\IdeaProjects\MyShop\store-order\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jksps\Documents\IdeaProjects\MyShop\Web\MyShop\src\components\index" />
       <recent name="C:\Users\jksps\Documents\IdeaProjects\MyShop\Web\MyShop\src\assets" />
       <recent name="C:\Users\jksps\Documents\IdeaProjects\MyShop\store-system\src\main\java\com\store\system" />
     </key>
@@ -284,7 +288,7 @@
       <workItem from="1704296800673" duration="1000" />
       <workItem from="1704296806158" duration="1251000" />
       <workItem from="1704330059704" duration="2686000" />
-      <workItem from="1704336551670" duration="12569000" />
+      <workItem from="1704336551670" duration="23992000" />
     </task>
     <task id="LOCAL-00001" summary="基本逻辑搞清楚了，完成了RoleService功能，正在做对应的增删改查。目前使用了mybatis-plus写，相对于mybatis差别不大">
       <option name="closed" value="true" />
@@ -366,7 +370,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704338926247</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="完成购物车模块的样式，我是在独立完成，但是有点难">
+      <option name="closed" value="true" />
+      <created>1704354015639</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1704354015639</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +435,8 @@
     <MESSAGE value="四张echart静态图实现" />
     <MESSAGE value="创建前端项目模块以及配置环境" />
     <MESSAGE value="解决路由配置问题，以及创建主页等内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决路由配置问题，以及创建主页等内容" />
+    <MESSAGE value="完成购物车模块的样式，我是在独立完成，但是有点难" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成购物车模块的样式，我是在独立完成，但是有点难" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
