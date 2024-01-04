@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe398823-0b07-43ce-96e3-d6d6c91cb8d8" name="Changes" comment="四张echart静态图实现">
+    <list default="true" id="fe398823-0b07-43ce-96e3-d6d6c91cb8d8" name="Changes" comment="创建前端项目模块以及配置环境">
+      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/components/HeaderSearch.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/components/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/rotuer/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/MyShop/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Web/MyShop/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/MyShop/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/MyShop/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/MyShop/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/MyShop/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/MyShop/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +26,9 @@
         <option value="JUnit5 Test Class" />
         <option value="Class" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="Vue Composition API Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -63,65 +71,69 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortKey" value="BY_TIME_ASCENDING" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "HTTP Request.generated-requests | #10.executor": "Run",
-    "HTTP Request.generated-requests | #11.executor": "Run",
-    "HTTP Request.generated-requests | #13.executor": "Run",
-    "HTTP Request.generated-requests | #14.executor": "Run",
-    "HTTP Request.generated-requests | #15.executor": "Run",
-    "HTTP Request.generated-requests | #16.executor": "Run",
-    "HTTP Request.generated-requests | #18.executor": "Run",
-    "HTTP Request.generated-requests | #21.executor": "Run",
-    "HTTP Request.generated-requests | #8.executor": "Run",
-    "HTTP Request.test | #1.executor": "Run",
-    "JUnit.UsersServiceImplTest.save.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.test001 [org.apache.maven.plugins:maven-clean-plugin:2.5:clean].executor": "Run",
-    "Maven.test001 [org.apache.maven.plugins:maven-install-plugin:2.4:help].executor": "Run",
-    "Maven.test001 [org.apache.maven.plugins:maven-install-plugin:2.4:install].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.StoreAdminApplication.executor": "Run",
-    "Spring Boot.StoreOrderApplication.executor": "Run",
-    "Spring Boot.StoreProductApplication.executor": "Run",
-    "Spring Boot.SystemSpringApplication.executor": "Debug",
-    "Spring Boot.Test001Application.executor": "Run",
-    "Spring Boot.UserApplication.executor": "Run",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jksps/IdeaProjects/spring-security2023",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.11652893",
-    "project.structure.side.proportion": "0.19649805",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.2.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;HTTP Request.generated-requests | #10.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #11.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #13.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #14.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #15.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #16.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #18.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #21.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #8.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.test | #1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsersServiceImplTest.save.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.test001 [org.apache.maven.plugins:maven-clean-plugin:2.5:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.test001 [org.apache.maven.plugins:maven-install-plugin:2.4:help].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.test001 [org.apache.maven.plugins:maven-install-plugin:2.4:install].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.StoreAdminApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.StoreOrderApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.StoreProductApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SystemSpringApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.Test001Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.UserApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jksps/IdeaProjects/spring-security2023&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.11652893&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.19649805&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.2.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ],
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -157,10 +169,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SystemSpringApplication">
-    <configuration name="generated-requests | #18" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="18" requestIdentifier="#18" runType="Run single request">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="npm.dev">
     <configuration name="generated-requests | #21" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="21" requestIdentifier="#21" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -207,13 +216,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/Web/MyShop/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="Spring Boot.SystemSpringApplication" />
         <item itemvalue="HTTP Request.generated-requests | #21" />
         <item itemvalue="Spring Boot.Test001Application" />
         <item itemvalue="JUnit.UsersServiceImplTest.save" />
-        <item itemvalue="HTTP Request.generated-requests | #18" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +280,9 @@
       <workItem from="1703502755531" duration="5777000" />
       <workItem from="1703521872597" duration="1307000" />
       <workItem from="1704296800673" duration="1000" />
-      <workItem from="1704296806158" duration="943000" />
+      <workItem from="1704296806158" duration="1251000" />
+      <workItem from="1704330059704" duration="2686000" />
+      <workItem from="1704336551670" duration="2106000" />
     </task>
     <task id="LOCAL-00001" summary="基本逻辑搞清楚了，完成了RoleService功能，正在做对应的增删改查。目前使用了mybatis-plus写，相对于mybatis差别不大">
       <option name="closed" value="true" />
@@ -327,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703560581018</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="创建前端项目模块以及配置环境">
+      <option name="closed" value="true" />
+      <created>1704297818124</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704297818124</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +411,8 @@
     <MESSAGE value="改了下项目结构" />
     <MESSAGE value="web项目回顾，一个简单的demo" />
     <MESSAGE value="四张echart静态图实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="四张echart静态图实现" />
+    <MESSAGE value="创建前端项目模块以及配置环境" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建前端项目模块以及配置环境" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
