@@ -4,19 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe398823-0b07-43ce-96e3-d6d6c91cb8d8" name="Changes" comment="完成购物车模块的样式，我是在独立完成，但是有点难">
-      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/components/index/Carousel.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/components/index/Header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/components/index/LeftSider.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/components/index/Login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/components/index/Logo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/components/index/Navigation.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/components/index/ShopCart.vue" afterDir="false" />
+    <list default="true" id="fe398823-0b07-43ce-96e3-d6d6c91cb8d8" name="Changes" comment="大体是出来了，填填内容差不多就完事了吧">
+      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/assets/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/assets/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/assets/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/assets/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/components/index/NewItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/MyShop/src/components/index/RightSider.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/MyShop/src/components/Header.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/MyShop/src/components/HeaderSearch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Web/MyShop/src/components/index/HeaderSearch.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/MyShop/src/components/ShopCart.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/MyShop/src/components/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Web/MyShop/src/components/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/MyShop/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/MyShop/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +110,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jksps/IdeaProjects/spring-security2023&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jksps/Documents/IdeaProjects/MyShop/Web/MyShop/src/assets&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -143,11 +140,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jksps\Documents\IdeaProjects\MyShop\Web\MyShop\src\assets" />
       <recent name="C:\Users\jksps\Documents\IdeaProjects\MyShop\store-common\src\main\resources" />
       <recent name="C:\Users\jksps\Documents\IdeaProjects\MyShop\store-common\src\main\java\com\store\common" />
       <recent name="C:\Users\jksps\Documents\IdeaProjects\MyShop\store-system\src\main\resources" />
       <recent name="C:\Users\jksps\Documents\IdeaProjects\MyShop\store-product\src\main\resources" />
-      <recent name="C:\Users\jksps\Documents\IdeaProjects\MyShop\store-order\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jksps\Documents\IdeaProjects\MyShop\Web\MyShop\src\components\index" />
@@ -288,7 +285,8 @@
       <workItem from="1704296800673" duration="1000" />
       <workItem from="1704296806158" duration="1251000" />
       <workItem from="1704330059704" duration="2686000" />
-      <workItem from="1704336551670" duration="23992000" />
+      <workItem from="1704336551670" duration="29720000" />
+      <workItem from="1704376110332" duration="3496000" />
     </task>
     <task id="LOCAL-00001" summary="基本逻辑搞清楚了，完成了RoleService功能，正在做对应的增删改查。目前使用了mybatis-plus写，相对于mybatis差别不大">
       <option name="closed" value="true" />
@@ -378,7 +376,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704354015639</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="大体是出来了，填填内容差不多就完事了吧">
+      <option name="closed" value="true" />
+      <created>1704370514762</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1704370514762</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +442,8 @@
     <MESSAGE value="创建前端项目模块以及配置环境" />
     <MESSAGE value="解决路由配置问题，以及创建主页等内容" />
     <MESSAGE value="完成购物车模块的样式，我是在独立完成，但是有点难" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成购物车模块的样式，我是在独立完成，但是有点难" />
+    <MESSAGE value="大体是出来了，填填内容差不多就完事了吧" />
+    <option name="LAST_COMMIT_MESSAGE" value="大体是出来了，填填内容差不多就完事了吧" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

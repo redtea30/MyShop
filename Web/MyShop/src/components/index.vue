@@ -38,6 +38,8 @@ import Header from "@/components/index/Header.vue"
 import Navigation from "@/components/index/Navigation.vue"
 import LeftSider from "@/components/index/LeftSider.vue";
 import Carousel from "@/components/index/Carousel.vue";
+import RightSider from "@/components/index/RightSider.vue";
+import NewItem from "@/components/index/NewItem.vue";
 </script>
 
 <template>
@@ -58,9 +60,14 @@ import Carousel from "@/components/index/Carousel.vue";
           <a-layout-content :style="contentStyle" width="529px">
             <carousel></carousel>
           </a-layout-content>
-          <a-layout-sider :style="siderStyle" width="220px">侧边栏</a-layout-sider>
+          <a-layout-sider :style="siderStyle" width="220px">
+            <RightSider></RightSider>
+          </a-layout-sider>
         </a-layout>
-        <a-layout-content :style="contentStyle">内容2</a-layout-content>
+        <!--   内容二部分     -->
+        <a-layout-content :style="contentStyle">
+          <NewItem></NewItem>
+        </a-layout-content>
         <a-layout-footer :style="footerStyle">Footer</a-layout-footer>
       </a-layout>
     </a-space>
